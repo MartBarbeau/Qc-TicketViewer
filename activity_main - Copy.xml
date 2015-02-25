@@ -35,4 +35,15 @@
         android:layout_gravity="right|top"
         android:textColor="#ffff0005" />
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_gravity="center_horizontal|bottom">
+    </com.google.android.gms.ads.AdView>
+
 </FrameLayout>
